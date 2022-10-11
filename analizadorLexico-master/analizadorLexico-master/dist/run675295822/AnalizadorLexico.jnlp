@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AnalizadorLexico.jnlp">
+  <information>
+    <title>AnalizadorLexico</title>
+    <vendor>fernando</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AnalizadorLexico.jar" size="20689" download="eager" />
+    <jar href="lib/jflex-1.6.1.jar" size="1050746" download="eager" />
+  </resources>
+  <application-desc main-class="com.unibe.teoriaCompiladores.analizadorLexico.Main"  name="AnalizadorLexico" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>

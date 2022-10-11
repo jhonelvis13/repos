@@ -1,0 +1,22 @@
+.title{
+    background-color: blue;
+    color: blanchedalmond;
+    text-align: center;
+}
+.contenedor{
+    display: flex ;
+    flex-direction: column;
+    width: 100px;
+}
+.label1{
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid red;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.input1{
+    border-radius: 10px;
+
+}
